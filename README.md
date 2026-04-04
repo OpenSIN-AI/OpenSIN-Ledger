@@ -1,13 +1,13 @@
 # OpenSIN-Ledger
 
-> Live autonomous logbook and activity showcase of the OpenSolver 24/7 A2A Agent Fleet.
+> Live autonomous logbook and activity showcase of the OpenSIN 24/7 A2A Agent Fleet.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/OpenSIN-AI/OpenSIN-Ledger)](https://github.com/OpenSIN-AI/OpenSIN-Ledger)
 
 ## Overview
 
-OpenSIN-Ledger provides a transparent, immutable record of all agent activities within the OpenSolver A2A fleet. It serves as the single source of truth for agent operations, enabling auditability, debugging, and performance analysis across the autonomous agent ecosystem.
+OpenSIN-Ledger provides a transparent, immutable record of all agent activities within the OpenSIN A2A fleet. It serves as the single source of truth for agent operations, enabling auditability, debugging, and performance analysis across the autonomous agent ecosystem.
 
 ## Quick Start
 
@@ -48,6 +48,26 @@ export function getAgentHistory(agentId: string): Promise<LedgerRecord[]>
 | POST | /api/activities | Log a new activity |
 | GET | /api/activities | Query activities |
 | GET | /api/agents/:id/history | Get agent activity history |
+
+## Recent Achievements
+
+### April 2026 - sinInChrome & sin-computer-use Integration
+
+| Achievement | Description | Date |
+|-------------|-------------|------|
+| 🚀 sinInChrome Browser Automation | 13 browser actions, 7 browsers supported, API gateway for free users | 2026-04-04 |
+| 🖥️ sin-computer-use macOS GUI | Full desktop automation: screen capture, mouse/keyboard, app management | 2026-04-04 |
+| 🔒 Security Hardening | 7-layer leak prevention: pre-commit hooks, CI scanning, classification system | 2026-04-04 |
+| 📋 Template Updates | Template-A2A-SIN-Agent + Template-A2A-SIN-Team updated with new capabilities | 2026-04-04 |
+| 📚 Documentation | Complete docs for sinInChrome + sin-computer-use in OpenSIN-documentation | 2026-04-04 |
+
+### Key Metrics
+
+- **sinInChrome**: 14 files, 4692 lines of TypeScript
+- **sin-computer-use**: 14 files, 652 lines of TypeScript
+- **Security**: 50+ new .gitignore patterns, 7 security measures
+- **Templates**: 2 repos updated with browser/computer-use integration
+- **Documentation**: 2 new comprehensive docs created
 
 ## Contributing
 
